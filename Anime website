@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Website</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        form {
+            background: #222;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background: #444;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Animation Website</h1>
+    </header>
+    <main>
+        <section id="anime-creation">
+            <h2>Anime Creation</h2>
+            <p>Explore tools, guides, and tutorials to bring your anime ideas to life!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Animation Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
